@@ -1,0 +1,17 @@
+/* - - - - - - - - - - - - - - - - - - - - -
+
+ Title : SME Convention 2017
+ Author : Jack
+ URL : https://mccorkell.wufoo.eu/forms/sme-convention/
+
+ Last Updated : 17 August 2017
+
+- - - - - - - - - - - - - - - - - - - - - */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i');
+#form164{font-family: 'Montserrat', sans-serif;}
+h1#logo {display:none;}
+input.text {border: 1px solid #ececec; background: #fff;}
+input.text, select.select {border: 1px solid #ececec; background: #fff;}
+
+.wufoo .info h2{font-size: 30px; color: #333333;}

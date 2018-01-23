@@ -1,0 +1,641 @@
+/* - - - - - - - - - - - - - - - - - - - - -
+
+ Title : SME Convention 2017
+ Author : Jack
+ URL : https://mccorkell.wufoo.eu/forms/sme-convention/
+
+ Last Updated : 17 August 2017
+
+- - - - - - - - - - - - - - - - - - - - - */
+
+body {
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
+    color: #767676;
+    line-height: 24px;
+}
+
+p {
+    font-size: 20px;
+}
+
+p.small {
+    font-size: 16px;
+}
+
+a,
+a.active,
+a:active,
+a:focus,
+a:hover {
+    color: #005596;
+    outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.img-centered {
+    margin: 0 auto;
+}
+
+section {
+    padding: 30px 0;
+}
+
+.scroll-top {
+    position: fixed;
+    z-index: 1049;
+    right: 2%;
+    bottom: 2%;
+    width: 50px;
+    height: 50px;
+}
+
+.scroll-top .btn {
+    font-size: 16px;
+    line-height: 28px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 100%;
+}
+
+.scroll-top .btn:focus {
+    outline: none;
+}
+
+.p-list{
+    font-size: 14px;
+    line-height: 26px;
+}
+
+table{
+    font-size: 14px;
+}
+
+.next-row{
+    margin-top: 50px;
+}
+
+.navigation {
+    background: #fff;
+}
+
+#mainNav {
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    height: 140px;
+    border: none;
+    background: #fff;
+}
+
+#mainNav a:focus {
+    outline: none;
+}
+
+#mainNav .navbar-brand img {
+    width: 263px;
+}
+
+#mainNav .navbar-nav {
+    letter-spacing: 1px;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link {
+    color: #666;
+    font-size:14px;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+    color: #005596;
+    outline: none;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link:active {
+    color: #005596;
+}
+
+#mainNav .navbar-toggler {
+    font-size: 14px;
+    padding: 11px;
+    text-transform: uppercase;
+    color: #005596;
+    border-color: #005596;
+}
+
+#mainNav .navbar-toggler:focus,
+#mainNav .navbar-toggler:hover {
+    color: #005596;
+    border-color: #005596;
+    background-color: #fff;
+}
+
+.navigation.navigation-shrink {
+    border-bottom: 1px solid #eee;
+}
+
+/**
+    * Masthead slider
+    *
+    *
+    *
+ */
+
+header.masthead {
+    text-align: center;
+    color: white;
+    background: #005596;
+    height: 500px;
+    width: 100%;
+    margin-top: 140px;
+}
+
+header.masthead .swiper-area .swiper-container .swiper-wrapper .swiper-slide .swiper-lazy {
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+}
+
+header.masthead .swiper-area .swiper-container .swiper-wrapper .swiper-slide .swiper-overlay{
+	background-image: url(../img/slider/stripesblack.png);
+    background-repeat: repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+header.masthead .swiper-area .swiper-container .swiper-wrapper .swiper-slide .content-slider-1 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 15%;
+    margin-right: 15%;
+    z-index: 100;
+    width: 70%;
+}
+
+header.masthead .swiper-area .swiper-container .swiper-wrapper .swiper-slide .content-slider-1 h1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+header.masthead .swiper-area .swiper-container .swiper-wrapper .swiper-slide .content-slider-1 h2 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+
+/**
+    * About Section
+    *
+    *
+    *
+ */
+
+#about-convention {
+    background: #fff;
+}
+
+#about-convention .about-convention-content .upper-text {
+    font-size: 16px;
+    text-align: center;
+}
+
+#about-convention .about-convention-content h1 {
+    color: #333333;
+    font-size: 30px;
+    margin-top: 7px;
+    text-align: center;
+}
+
+#about-convention .about-convention-content p {
+    font-size: 14px;
+    text-align: center;
+}
+
+#about-convention .about-convention-content .border-line {
+    background: #00aeef;
+    width: 100px;
+    height: 5px;
+    display: block;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+#about-convention .about-convention-content a.btn {
+    border-radius: 0;
+    color: #ffffff;
+    background: #005596;
+    margin-top: 20px;
+    border:#005596 1px solid;
+}
+
+#about-convention .about-convention-content a.btn:hover{
+	background: #ffffff;
+	border:#005596 1px solid;
+	color: #005596;
+}
+
+#about-convention .about-img img {
+    width: 100%;
+}
+
+
+/**
+    * Programme Section
+    *
+    *
+    *
+ */
+
+#programme {
+    background: #f7f7f7;
+}
+
+#programme .programme-content .upper-text {
+    font-size: 16px;
+    text-align: center;
+}
+
+#programme .programme-content h1 {
+    color: #333333;
+    font-size: 30px;
+    margin-top: 7px;
+    text-align: center;
+}
+
+#programme .programme-content p {
+    font-size: 14px;
+}
+
+#programme .programme-content .border-line {
+    background: #00aeef;
+    width: 100px;
+    height: 5px;
+    display: block;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+#programme .programme-title-schedule {
+    padding: 40px 0;
+    text-align: center;
+}
+
+#programme .programme-title-schedule h2 {
+    font-size: 16px;
+}
+
+#programme .programme-title-schedule h1 {
+    font-size: 30px;
+    color: #333333;
+}
+
+#programme .programme-title-schedule a.btn {
+    border-radius: 0;
+    color: #ffffff;
+    background: #005596;
+    margin-top: 20px;
+    border:#005596 1px solid;
+}
+
+#programme .programme-title-schedule a.btn:hover{
+    background: #ffffff;
+    border:#005596 1px solid;
+    color: #005596;
+}
+
+#programme .programme-img img {
+    width: 100%;
+}
+
+#programme .programme-table {
+    background: #fff;
+    padding: 20px;
+}
+
+#programme .programme-table th {
+    color: #333;
+}
+
+#programme .programme-table th,
+#programme .programme-table td {
+    padding: 8px;
+}
+
+
+/**
+    * Speakers Section
+    *
+    *
+    *
+ */
+
+#speakers {
+    background: #fff;
+}
+
+#speakers .speakers-content {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#speakers .speakers-content .upper-text {
+    font-size: 16px;
+}
+
+#speakers .speakers-content h1 {
+    color: #333333;
+    font-size: 30px;
+    margin-top: 7px;
+}
+
+#speakers .speakers-content p {
+    font-size: 14px;
+}
+
+#speakers .speakers-content .border-line {
+    background: #00aeef;
+    width: 100px;
+    height: 5px;
+    display: block;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+#speakers .speaker-item {
+    font-size: 14px;
+}
+
+#speakers .speaker-item img {
+    margin-bottom: 10px;
+}
+
+#speakers .speaker-item p {
+    margin: 0;
+    font-size: 14px;
+}
+
+#speakers .speaker-item .top-name {
+    font-size: 16px;
+    margin-bottom: 5px;
+    line-height: 18px;
+}
+
+#speakers .speaker-item .name {
+    font-size: 16px;
+    color: #333;
+    display:none;
+}
+
+#speakers .speaker-item .position {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+#speakers .speaker-item .short-description {
+    margin-top: 20px;
+}
+
+
+/**
+    * Sponsors Section
+    *
+    *
+    *
+ */
+
+/* #sponsors {
+    background: #f7f7f7;
+} */
+
+#sponsors .sponsors-content {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#sponsors .sponsors-content .upper-text {
+    font-size: 16px;
+}
+
+#sponsors .sponsors-content h1 {
+    color: #333333;
+    font-size: 30px;
+    margin-top: 7px;
+}
+
+#sponsors .sponsors-content p {
+    font-size: 14px;
+}
+
+#sponsors .sponsors-content .border-line {
+    background: #00aeef;
+    width: 100px;
+    height: 5px;
+    display: block;
+    margin-bottom: 50px;
+    margin-top:20px;
+}
+
+#sponsors .logos-sponsors {
+    text-align: center;
+}
+
+#sponsors .logos-sponsors img {
+    width:80%;
+}
+
+/**
+* Sponsors Section
+*
+*
+*
+*/
+
+#partners {
+    background: #fff;
+}
+
+#partners .partners-content {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#partners .partners-content .upper-text {
+    font-size: 16px;
+}
+
+#partners .partners-content h1 {
+    color: #333333;
+    font-size: 30px;
+    margin-top: 7px;
+}
+
+#partners .partners-content p {
+    font-size: 14px;
+}
+
+#partners .partners-content .border-line {
+    background: #00aeef;
+    width: 100px;
+    height: 5px;
+    display: block;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+#partners .logos-partners {
+    text-align: center;
+}
+
+#partners .logos-partners img {
+    width:90%;
+}
+
+.img-organizer img{
+    width:400px;
+    padding:10px 0;
+}
+
+/**
+    * Registration Section
+    *
+    *
+    *
+ */
+
+#registration {
+    background: #fff;
+    padding-top: 0;
+}
+
+#registration .registration-content {
+    text-align: center;
+}
+
+#registration .registration-content .upper-text {
+    font-size: 16px;
+}
+
+#registration .registration-content h1 {
+    color: #333333;
+    font-size: 30px;
+    margin-top: 7px;
+}
+
+#registration .registration-content p {
+    font-size: 14px;
+}
+
+#registration .registration-content .border-line {
+    background: #00aeef;
+    width: 100px;
+    height: 5px;
+    display: block;
+    margin-bottom: 50px;
+    margin-top:20px;
+}
+
+#registration .regitration-title {
+    background: url('../img/registration.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 360px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#registration .regitration-title-content {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: 700;
+    color: #fff;
+}
+
+#registration .regitration-title-content h1 {
+    font-size: 60px;
+}
+
+#registration .regitration-title-content h2 {
+    font-size: 36px;
+}
+
+#registration .registration-content .upper-text {
+    font-size: 16px;
+}
+
+#registration .registration-content .border-line {
+    background: #00aeef;
+    width: 100px;
+    height: 5px;
+    display: block;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+#registration .registration-content h1 {
+    color: #333333;
+    font-size: 30px;
+    margin-top: 7px;
+}
+
+#registration .registration-content p {
+    font-size: 14px;
+    margin-bottom:30px;
+}
+
+#registration .registration-img img {
+    width: 100%;
+}
+
+#registration .tnc{
+    text-align: left;
+}
+
+#registration .tnc .upper-text {
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 10px;
+    border-top: 1px #767676 dotted;
+}
+
+#registration .tnc p {
+    font-size: 12px;
+    margin-bottom:10px;
+}
+
+
+#registration .tnc.wide{
+    display:block;
+}
+
+#registration .tnc.half{
+    display:none;
+}
+
+
+footer#footer {
+    height: 110px;
+    width: 100%;
+    background: #f7f7f7;
+}
+
+footer#footer p {
+    font-size: 12px;
+    text-align: right;
+    color: #999999;
+    margin-top: 53px;
+}
